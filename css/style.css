@@ -1,0 +1,715 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Playfair Display', serif; */
+/* background: #AE7C78; телесный */
+/* border: 1px solid #AE7C78; */
+body {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    width: 1440px;
+    height: 5000px;
+    color: #AE7C78;
+    background: #E5E5E5;
+    box-sizing: border-box;
+    line-height: 20px;
+    word-spacing: 0.02em;
+}
+a {
+    color: white;
+}
+
+/* ХЕДЕР С ПОЛОСАМИ */
+.page-header-list-item-1 a,
+.page-header-list-item-2 a {
+    color: #AE7C78;
+}
+.wrapper {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.page-header {
+    margin-top: 27px;
+    margin-bottom: 52px;
+    display: flex;
+    position: relative;
+    padding: 15px 0;
+}
+.page-header::before {
+    border-top: 1px solid #AE7C78;
+    content: '';
+    width: 100%;
+    display: block;
+    color: #AE7C78;
+    position: absolute;
+    top: -2px;
+    left: 0;
+}
+.page-header::after {
+    border-top: 1px solid #AE7C78;
+    content: '';
+    width: 100%;
+    display: block;
+    color: #AE7C78;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+}
+
+.page-header-list-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.page-header-list-item-1 {
+    margin-right: 102px;
+}
+.page-header-list-item-1:last-child {
+    margin-right: 0;
+}
+.page-header-list-item-1:first-child {
+    margin-left: 120px;
+}
+.page-header-list-item-2:last-child {
+    margin-right: 120px;
+}
+.page-header-list-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+.page-header-list-item-2 {
+    margin-right: 89px;
+}
+.page-header-list-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 62px 0 64px;    
+}
+
+
+
+
+
+
+
+/* АВТОРСКИЕ БУКЕТЫ */
+.author-bouquet {
+    display: flex;
+    margin-bottom: 48px;
+    min-height: 466px;
+}
+.author-bouquet-left {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.author-bouquet-h1 {
+    font-family: 'Playfair Display', serif; 
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 59px;
+    margin-bottom: 24px;
+    max-width: 386px;
+}
+
+.author-bouquet-h1-span {
+    font-family: 'Playfair Display', serif; 
+    font-size: 44px;
+    font-style: italic;
+    line-height: 59px;
+}
+
+.author-bouquet-p {
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 65px;
+    max-width: 384px;
+}
+
+.author-bouquet-input {
+    color: white;
+    border-radius: 40px;
+    background-color: #D89999;
+    width: 285px;
+    height: 80px;
+}
+
+.author-bouquet-right {
+    display: flex;
+}
+
+.author-bouquet-right-img1 {
+    min-height: 404px;
+    width: 386px;
+    padding-top: 88px;
+    margin-right: 22px;
+    border-radius: 10px;
+    align-self: flex-end;
+}
+
+.author-bouquet-right-img2 {
+    width: 387px;
+    height: 420px;
+    border-radius: 10px;
+    align-self: flex-start;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+/* ПОД АВТОРСКИМИ ЦВЕТАМИ ОСОБЕННОСТИ*/
+.features {
+    display: flex;
+    height: 108px;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.features-h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.features-p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+.features-left,
+.features-right,
+.features-mid {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding-right: 2px;
+}
+.features-left-img,
+.features-right-img {
+    margin-right: 19px;
+}
+.features-left-h5-p,
+.features-mid-h5-p,
+.features-right-h5-p {
+    max-width: 285px;
+}
+.features-mid {
+    padding-left: 15px;
+}
+.features-mid-img {
+    margin-right: 30px;
+}
+
+
+
+/* Популярные букеты */
+.popular-bouqet {
+    max-width: 794px;
+    min-height: 546px;
+    margin: 0 auto 80px auto;
+    position: relative;
+}
+.popular-bouqet-h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 48px;
+    letter-spacing: 0.04em;    
+    margin: 0 auto; 
+    margin-bottom: 63px;
+    max-width: 372px;
+    padding-left: 15px;
+}
+
+.popular-bouqet-h2-p {
+    display: flex;
+    flex-direction: column;
+    max-width: 387px;
+}
+.popular-bouqet-h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29px;
+    text-align: left;
+    margin-bottom: 21px;
+}
+.popular-bouqet-p {
+    margin-bottom: 24px;
+}
+
+.popular-bouqet-span-size {
+    display: block;
+    margin-bottom: 23px;
+}
+.popular-bouqet-span-price {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    display: block;
+    margin-bottom: 64px;
+}
+.popular-bouqet-input {
+    color: white;
+    border-radius: 40px;
+    background-color: #D89999;
+    width: 285px;
+    height: 80px;
+}
+.popular-bouqet-img {
+    position: absolute;
+    bottom: 25px;
+    right: 0px;
+    object-fit: cover;
+}
+/* СТРЕЛКИ */
+.previous {
+    position: absolute;
+    bottom: -13px;
+    left: 325px;
+    padding: 5px 10px;
+}
+
+.next {
+    position: absolute;
+    bottom: -13px;
+    right: 325px;
+    padding: 5px 10px;
+}
+
+
+
+
+
+
+/* ПРЕДЛОЖЕНИЯ */
+.all-offers {
+    color: white;
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.all-offer-1-h3,
+.all-offer-2-h3,
+.all-offer-3-h3 {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    padding-left: 5px;
+    letter-spacing: 0.04em;
+    margin-bottom: 8px;
+}
+
+.offer-1,
+.offer-2,
+.offer-3 {
+    height: 100%;
+    width: 100%;
+    background: rgba(174, 124, 120, 0.6) no-repeat 0 0;
+    border-radius: 10px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.all-offer-2-p {
+    padding-top: 2px;
+}
+.bg-1, .bg-2, .bg-3 {
+    margin-right: 19px;
+    height: 442px;
+    width: 387px;
+    border-radius: 10px;
+}
+
+.offer-1 a,
+.offer-2 a,
+.offer-3 a {
+    color: white;
+    text-align: center;
+}
+.bg-1 {
+    background-image: url('/img/свадебный_букет.png');
+}
+
+.bg-2 {
+    background-image: url('/img/букет_пионы.png');
+}
+
+.bg-3 {
+    background-image: url('/img/выбрать_букет.png');
+    margin-right: 0px;
+}
+
+
+
+
+
+/* SALE10% */
+.first-order {
+    width: 100%;
+    color: white;
+    position: relative;
+    min-height: 391px;
+    background: #AE7C78;
+    margin-bottom: 80px;
+}
+
+.first-order-left {
+    display: flex;
+    flex-direction: column;
+    margin-left: 102px;
+    padding-top: 40px;
+}
+
+.first-order-h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 59px;
+    letter-spacing: 0.02em;
+    margin-bottom: 24px;
+    max-width: 488px;
+}
+
+.first-order-p {
+    max-width: 387px;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.first-order-img {
+    min-width: 590px;
+    min-height: 391px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+
+
+
+
+/* 4 ШАГА К ИДЕАЛЬНОМУ БУКЕТУ */
+.ideal-bouqet-h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0.04em;    
+    text-align: center;
+    margin-bottom: 96px;
+}
+
+.ideal-bouqet-first,
+.ideal-bouqet-second,
+.ideal-bouqet-third,
+.ideal-bouqet-fourth {
+    position: relative;
+    min-height: 68px;
+}
+
+.ideal-bouqet {
+    display: grid;
+    grid-template-columns: repeat(4, 305px);
+    margin-bottom: 78px;
+}
+
+.ideal-bouqet-h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 3px;
+    margin-bottom: 8px;
+}
+
+.ideal-bouqet-p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.ideal-bouqet-img-first {
+    top: -60px;
+    left: 110px;
+    position: absolute;
+}
+.ideal-bouqet-img-second {
+    top: -60px;
+    left: 125px;
+    position: absolute;
+}
+.ideal-bouqet-img-third {
+    top: -60px;
+    left: 108px;
+    position: absolute;
+
+}
+.ideal-bouqet-img-fourth {
+    top: -60px;
+    left: 100px;
+    position: absolute;
+}
+
+.ideal-bouqet-second h5 {
+    padding-right: 20px;
+    padding-top: 2px;
+}
+
+.ideal-bouqet-third,
+.ideal-bouqet-fourth,
+.ideal-bouqet-second p,
+.ideal-bouqet-first p,
+.ideal-bouqet-first h5 {
+    padding-right: 20px;
+}
+
+
+
+
+
+/* СЛЕДИТЕ ЗА НОВОСТЯМИ */
+.news {
+    display: flex;
+    margin-bottom: 75px
+}
+
+.news-left {
+    display: flex;
+    flex-direction: column;
+    max-width: 387px;
+}
+
+.news-left-h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    padding-top: 68px;
+    margin-bottom: 40px;
+}
+
+.news-left-p {
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 40px;
+}
+
+.news-left-img-1,
+.news-left-img-2 {
+    margin-right: 15px;
+}
+
+
+
+
+
+
+
+
+
+/* ФОТОГРАФИИ НОВОСТИ */
+.news-photos {
+    display: flex;
+    margin-left: auto;
+}
+.news-right-mid {
+    display: flex;
+    flex-direction: column;
+}
+
+.news-right-img-1,
+.news-right-img-2 {
+    margin-right: 20px;
+    min-width: 285px;
+    min-height: 220px;
+}
+.news-right-img-1 {
+    margin-bottom: 20px;
+}
+.news-right-img-3 {
+    min-width: 387px;
+    min-height: 460px;
+}
+
+
+
+
+
+
+/* ОТЗЫВЫ */
+.review {
+    border: 1px solid #AE7C78;
+    margin-bottom: 80px;
+}
+
+.review-flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.review-h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    margin: 40px 0;
+}
+.review-item-1 .review-item-p,
+.review-item-2 .review-item-p,
+.review-item-3 .review-item-p {
+    max-width: 290px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.review-item-1 .review-item-span,
+.review-item-2 .review-item-span,
+.review-item-3 .review-item-span {
+    font-weight: 500;
+    display: block;
+    text-align: center;
+    margin-bottom: 62px;
+
+}
+
+.review-item-2 {   
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+
+
+
+
+
+
+/* КАРТА */
+.map {
+    width: 100%;
+    min-height: 644px;
+    background-image: url('/img/карта.png');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.map-adress {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+
+    position: absolute;
+    border-radius: 10px;
+    top: 52px;
+    left: 222px;
+
+    min-width: 350px;
+    background-color: white;
+    padding-left: 35px;
+}
+.map-adress-h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    padding-top: 40px;
+    word-spacing: 0.10em;
+    margin-bottom: 38px;
+}
+.map-adress-subtext-1,
+.map-adress-subtext-2,
+.map-adress-subtext-3,
+.map-adress-subtext-4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
+
+.map-adress-text-1 {
+    margin-bottom: 18px;   
+}
+
+.map-adress-subtext-1 {
+    margin-bottom: 32px;
+    max-width: 245px;
+    text-align: left;
+    word-spacing: 0.02em;
+}
+
+.map-adress-text-2 {
+    margin-bottom: 13px;   
+}
+
+.map-adress-subtext-2 {
+    margin-bottom: 29px;
+}
+.map-adress-text-3 {
+    margin-bottom: 13px;   
+}
+
+.map-adress-subtext-3 {
+    margin-bottom: 32px;
+}
+.map-adress-text-4 {
+    margin-bottom: 12px;   
+}
+.map-adress-subtext-4 {
+    margin-bottom: 65px;
+} 
+
+
+
+
+/* ФУТЕР */
+
+.page-footer {
+    display: flex;
+    align-items: center;
+    word-spacing: 0.04em;
+    padding: 22px 0 20px 0 ;
+    color: white;
+    background-color: #AE7C78;
+    border: 1px solid black;
+}
+
+.footer-left {
+    margin-left: 125px;
+    margin-right: 102px;
+}
+
+.footer-mid-ul li {
+    padding-bottom: 5px;
+    margin-right: 68px;
+}
+
+.footer-mid-ul li:last-child {
+    padding-bottom: 5px;
+    margin: 0;
+}
+
+.footer-mid-ul {
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    margin-right: 106px;
+}
+
+.footer-right img {
+    margin-right: 15px;
+}
