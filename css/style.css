@@ -27,7 +27,8 @@ button {
     color: #AE7C78;
 }
 
-.page-header {
+/* .page-header { */
+.page-header-nav {
     position: relative;
     display: flex;
     margin-top: 27px;
@@ -72,7 +73,7 @@ button {
     margin: 0 62px 0 64px;    
 }
 /* Полосы */
-.page-header::before {
+.page-header-nav::before {
     position: absolute;
     top: -5px;
     left: 0;
@@ -83,7 +84,7 @@ button {
     color: #AE7C78;
 }
 
-.page-header::after {
+.page-header-nav::after {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -296,6 +297,10 @@ button {
     background: rgba(174, 124, 120, 0.6) no-repeat 0 0;
 }
 
+.offer:hover {
+    background-color: transparent;
+}
+
 .bg-1, .bg-2, .bg-3 {
     height: 442px;
     width: 387px;
@@ -308,19 +313,12 @@ button {
     text-align: center;
 }
 
-.offer a:hover {
-    color: #573950;
-    opacity: 0.8;
-}
-
 .bg-1 {
     background-image: url('/img/свадебный_букет.png');
 }
-
 .bg-2 {
     background-image: url('/img/букет_пионы.png');
 }
-
 .bg-3 {
     background-image: url('/img/выбрать_букет.png');
     margin-right: 0px;
