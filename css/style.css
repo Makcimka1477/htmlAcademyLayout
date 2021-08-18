@@ -16,6 +16,11 @@ body {
 a {
     color: white;
 }
+button {
+    cursor: pointer;
+    border: none;
+    background-color: #e5e5e5;
+}
 
 /* ХЕДЕР С ПОЛОСАМИ */
 .page-header-list-item-1 a,
@@ -32,6 +37,9 @@ a {
     display: flex;
     position: relative;
     padding: 15px 0;
+}
+.page-header li:hover {
+    opacity: 0.6;
 }
 .page-header::before {
     border-top: 1px solid #AE7C78;
@@ -255,18 +263,27 @@ a {
     display: block;
     margin-bottom: 64px;
 }
-.popular-bouqet-input {
+.btn {
     color: white;
     border-radius: 40px;
     background-color: #D89999;
     width: 285px;
     height: 80px;
+    border: none;
+    box-shadow: 0 1px 4px 0 black;
+    transition: 0.2s ease;    
 }
+.btn-1 {
+    margin-left: 3px;
+}
+.btn:hover {
+    box-shadow: 0 0 0 0;
+}
+
 .popular-bouqet-img {
     position: absolute;
     bottom: 25px;
     right: 0px;
-    object-fit: cover;
 }
 /* СТРЕЛКИ */
 .previous {
@@ -283,9 +300,10 @@ a {
     padding: 5px 10px;
 }
 
-
-
-
+.previous:hover,
+.next:hover {
+    opacity: 0.3;
+}
 
 
 /* ПРЕДЛОЖЕНИЯ */
@@ -337,6 +355,14 @@ a {
     color: white;
     text-align: center;
 }
+
+.offer-1 a:hover,
+.offer-2 a:hover,
+.offer-3 a:hover {
+    color: #573950;
+    opacity: 0.8;
+}
+
 .bg-1 {
     background-image: url('/img/свадебный_букет.png');
 }
@@ -508,10 +534,16 @@ a {
 }
 
 .news-left-img-1,
-.news-left-img-2 {
-    margin-right: 15px;
+.news-left-img-2,
+.news-left-img-3 {
+    padding-right: 7px;
+    padding-left: 7px;
 }
-
+.news-left-img-1:hover,
+.news-left-img-2:hover,
+.news-left-img-3:hover {
+    opacity: 0.5;
+}
 
 
 
@@ -682,10 +714,9 @@ a {
     display: flex;
     align-items: center;
     word-spacing: 0.04em;
-    padding: 22px 0 20px 0 ;
+    padding: 25px 0 32px 0 ;
     color: white;
     background-color: #AE7C78;
-    border: 1px solid black;
 }
 
 .footer-left {
@@ -698,18 +729,25 @@ a {
     margin-right: 68px;
 }
 
+.footer-mid-ul li:hover {
+    opacity: 0.6;
+}
+
 .footer-mid-ul li:last-child {
     padding-bottom: 5px;
     margin: 0;
 }
 
 .footer-mid-ul {
-    border: 1px solid black;
     display: flex;
     align-items: center;
     margin-right: 106px;
 }
 
 .footer-right img {
-    margin-right: 15px;
+    margin-right: 10px;
+    padding: 5px;
+}
+.footer-right img:hover {
+    opacity: 0.6;
 }

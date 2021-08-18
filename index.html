@@ -9,13 +9,14 @@
     <title>Марафон 2021: Цветочный магазин.</title>
   </head>
   <body>
+    <!-- ХЕДЕР -->
     <header class="page-header">
       <ul class="page-header-list-1">
         <li class="page-header-list-item-1"><a href="#">Каталог</a></li>
         <li class="page-header-list-item-1"><a href="#">Доставка и оплата</a></li>
         <li class="page-header-list-item-1"><a href="#">Отзывы</a></li>
       </ul>
-        <a class="page-header-list-logo" href="index.html"><img src="/img/logo_header.svg" alt="Лого Ботаника"></a>
+        <a class="page-header-list-logo" href="index.html"><img src="/img/logo_header.svg" alt="Логотип"></a>
       <ul class="page-header-list-2"> 
         <li class="page-header-list-item-2"><a href="#">Спецпредложения</a></li>
         <li class="page-header-list-item-2"><a href="#">Контакты</a></li>
@@ -23,7 +24,7 @@
       </ul>
     </header>
 
-
+<!-- Авторские букеты -->
     <div class="wrapper">
       <div class="author-bouquet">
           <div class="author-bouquet-left">
@@ -32,18 +33,18 @@
               Оригинальные свежие букеты
               с доставкой по всему городу
             </p>
-            <input class="author-bouquet-input" type="button" value="Смотреть каталог"></input>
+            <button class="btn" type="button" value="Смотреть каталог">Смотреть каталог</button>
           </div>
       <div class="author-bouquet-right">
-        <img class='author-bouquet-right-img1' src="img/авторский_букет1.png" alt="Авторский букет1">
-        <img class='author-bouquet-right-img2' src="img/авторский_букет2.png" alt="Авторский букет2">
+        <img class='author-bouquet-right-img1' src="img/авторский_букет1.png" alt="Авторский букет 1">
+        <img class='author-bouquet-right-img2' src="img/авторский_букет2.png" alt="Авторский букет 2">
       </div>
       </div>
-
+<!-- Преимущсетва -->
       <div class="features">
         <div class="features-left">
           <div class='features-left-img'>
-              <img class="features-img-car" src="img/features-car.svg" alt="delivery">
+              <img class="features-img-car" src="img/features-car.svg" alt="Доставка">
           </div>
           <div class='features-left-h5-p'>
 
@@ -55,7 +56,7 @@
       </div>
       <div class='features-mid'>
         <div class="features-mid-img">
-          <img class="features-img-bouqet" src="img/features-booket.svg" alt="freshy flowers">
+          <img class="features-img-bouqet" src="img/features-booket.svg" alt="Свежие цветы">
         </div>
         <div class="features-mid-h5-p">
           <h5 class="features-h5">Всегда свежие цветы</h5>
@@ -67,7 +68,7 @@
       </div>
       <div class='features-right'>
         <div class='features-right-img'>
-          <img class="features-img-photo" src="img/features-photo.svg" alt="photo-bouqet">
+          <img class="features-img-photo" src="img/features-photo.svg" alt="Фото букета">
         </div>
         <div class='features-right-h5-p'>
           <h5 class="features-h5">Отправляем фото цветов</h5>
@@ -80,26 +81,26 @@
     </div>
 
 
-
+<!-- Популярные букеты -->
     <div class="popular-bouqet">
       <h2 class="popular-bouqet-h2">Популярные букеты</h2>
-      <div class="popular-bouqet-h2-p">
-        <h3 class="popular-bouqet-h3">Букет ''Нежность''</h3>
-        <p class="popular-bouqet-p">Элегантный букет, который станет отличным подарком на день рождения или юбилей.</p>
-        <span class="popular-bouqet-span-size">30 × 40 см</span>
-        <span class="popular-bouqet-span-price">3600 руб.</span>
-        <input class="popular-bouqet-input" type="button" value='Заказать'>
-      </div>
-        <img class='popular-bouqet-img' src="/img/популярный_букет.png" alt='Популярный букет'>  
-        <a href="#previous"><img class="previous" src="img/left.png" alt="Стрелка влево"></a>
-        <a href="#next"><img class="next" src="img/right.png" alt="Стрелка вправо"></a>
-    </div>
+       <div class="popular-bouqet-h2-p">
+            <h3 class="popular-bouqet-h3">Букет ''Нежность''</h3>
+            <p class="popular-bouqet-p">Элегантный букет, который станет отличным подарком на день рождения или юбилей.</p>
+            <span class="popular-bouqet-span-size">30 × 40 см</span>
+            <span class="popular-bouqet-span-price">3600 руб.</span>
+            <button class="btn btn-1" type="button" value='Заказать'>Заказать</button>
+            <img class='popular-bouqet-img' src="/img/популярный_букет.png" alt='Популярный букет - Нежность'>
+          </div>
+          <button type='button' class="previous"><img src="img/left.png" alt="Стрелка влево"></button>
+          <button type='button' class="next"><img src="img/right.png" alt="Стрелка вправо"></button>
 
-
+        </div>
+<!-- Предложения -->
     <div class="all-offers wrapper">
       <div class='bg-1'>
         <div class="offer-1">
-            <a href="#">
+          <a href="#">
               <h3 class="all-offer-1-h3">
                   Свадебные букеты
               </h3>
@@ -109,8 +110,6 @@
           </a>
         </div>
       </div>
-
-
       <div class='bg-2'>
         <div class="offer-2">
           <a href="#">
@@ -129,7 +128,7 @@
       </div>
     </div>
 
-
+<!-- Первый заказ -->
     <div class="first-order wrapper">
       <div class="first-order-left">
         <h2 class="first-order-h2">
@@ -150,7 +149,7 @@
 
 
     <div class="wrapper">
-
+<!-- 4 шага -->
       <h3 class="ideal-bouqet-h3">4 шага к идеальному букету</h3>
       <div class="ideal-bouqet">
         <div class='ideal-bouqet-first'>
@@ -176,18 +175,16 @@
         </div>
       </div>
 
-
-
-
+<!-- Новости -->
       <div class="news">
         <div class="news-left">
           <h2 class="news-left-h2">Следите за нашими новостями</h2>
           <p class='news-left-p'>Подписывайтесь на наши соцсети и узнавайте<br>
             о новинках и акциях первым.</p>
           <div class='news-left-img'>
-            <img class='news-left-img-1' src="img/insta-телесный.svg" alt="Инстаграмм">
-            <img class='news-left-img-2' src="img/fb-телесный.svg" alt="Фейсбук">
-            <img class='news-left-img-3' src="img/tw-телесный.svg" alt="Твиттер">
+            <a href="#" target="_blank"><img class='news-left-img-1' src="img/insta-телесный.svg" alt="Инстаграмм"></a>
+            <a href="#" target="_blank"><img class='news-left-img-2' src="img/fb-телесный.svg" alt="Фейсбук"></a>
+            <a href="#" target="_blank"><img class='news-left-img-3' src="img/tw-телесный.svg" alt="Твиттер"></a>
           </div>
         </div>
           <div class="news-photos">
@@ -201,7 +198,7 @@
           </div>
       </div>
 
-
+<!-- Отзывы -->
       <div class="review">
         <h2 class='review-h2'>Отзывы</h2>
         <div class="review-flex">
@@ -232,7 +229,7 @@
         </div>
       </div>
     </div>
-
+<!-- Геолокация -->
     <div class="map">
       <div class='map-adress'>
         <h2 class="map-adress-h2">Мы ждем вас</h2>
@@ -252,10 +249,10 @@
       </div>
     </div>
 
-
+<!-- ФУТЕР -->
     <footer class="page-footer">
       <div class="footer-left">
-        <img src="img/футер_лого.svg" alt="">
+      <a href="index.html" target="_blank"><img src="img/футер_лого.svg" alt="Логотип"></a>
       </div>
       <div class="footer-mid">
         <ul class="footer-mid-ul">
@@ -267,9 +264,9 @@
         </ul>
       </div>
       <div class="footer-right">
-        <img src="img/insta.svg" alt='Instagramm'>
-        <img src="img/fb.svg" alt="Facebook">
-        <img src="img/twit.svg" alt="Twitter">
+        <a href="#" target="_blank"><img src="img/insta.svg" alt='Instagramm'></a>
+        <a href="#" target="_blank"><img src="img/fb.svg" alt="Facebook"></a>
+        <a href="#" target="_blank"><img src="img/twit.svg" alt="Twitter"></a>
       </div>
     </footer>
   </body>
